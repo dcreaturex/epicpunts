@@ -1,18 +1,15 @@
-html, body {
-	background: linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0.75)), url("../img/vintage-black-lotus.jpg") no-repeat fixed;
+html {
+	min-height: 100%;
+}
+body {
+	background: linear-gradient(180deg, rgba(50,50,50,0.45), rgba(0,0,0,0.75)), url("../img/vintage-black-lotus.jpg") fixed;
 	background-position: center center;
 	background-repeat: no-repeat;
 	min-height: 100%;
-	margin: 0 auto;
 }
-
-/* body {
-	background-image: url("../img/vintage-black-lotus.jpg");
-	background-position: center center;
-	background-repeat: no-repeat;
-	background: rgba(42, 42, 42, 0.4);
-	margin: 0 auto;
-}*/
+main {
+	margin-bottom: 20px;
+}
 
 #logo  {
 	/* background: url("../img/EpicPuntsW.png") center center no-repeat;
@@ -290,13 +287,26 @@ html, body {
 }
 
 .textSection {
+	align: center;
 	background-color: rgba(240,240,240,0.7);
 	border-radius: 20px;
-	/* position: relative;
-    z-index: 10; */
-    margin: 0 auto;
+	margin: 0 auto;
     padding: 10px;
 	text-align: center;
 	width: 50%;
+	/* z-index: 1; */
+}
+
+
+footer {
+	align: center;
+	background: rgba(10,6,13,1);
+	bottom: -1px;
+	clear: both;
+	color: #ddd;
+	margin: 0 -6px -8px -8px;
+	padding: 6px 4px;
+	text-align: center;
+	width: 100%;
 }
 
