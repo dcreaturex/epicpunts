@@ -1,33 +1,26 @@
-html {
-	min-height: 100%;
-}
-body {
-	background: linear-gradient(180deg, rgba(50,50,50,0.45), rgba(0,0,0,0.75)), url("../img/vintage-black-lotus.jpg") fixed;
-	background-position: center center;
+html, body {
+	background-image: url("../img/vintageBlackLotus.jpg");
+	background-position: center;
+	background-size: cover;
 	background-repeat: no-repeat;
-	min-height: 100%;
+	background-attachment: fixed;
+	height: 100%;
 }
 main {
 	margin-bottom: 20px;
 }
 
 #logo  {
-	/* background: url("../img/EpicPuntsW.png") center center no-repeat;
-	background-color: rgba(42,42,42,.4); */
 	border: 0px;
 	display: block;
 	margin: 0 auto;
 	padding: 5px;
 	text-align: center;
-	/* width: 250px; */
+	width: 240px;
 	height: auto;
-}
-.logo:hover {
-	/* background-color: rgba(42,58,69,.4); */
 }
 
 .circular {
-	/*border: 4px solid #fff;*/
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -203,9 +196,6 @@ main {
 	width: 40px;
 	height: 40px;
 }
-/*.navbar img:hover {
-	filter: invert(100%);
-}*/
 
 .whiteA {
 	position: relative;
@@ -291,22 +281,20 @@ main {
 	background-color: rgba(240,240,240,0.7);
 	border-radius: 20px;
 	margin: 0 auto;
-    padding: 10px;
+  	padding: 10px;
 	text-align: center;
 	width: 50%;
-	/* z-index: 1; */
 }
 
 
 footer {
 	align: center;
-	background: rgba(10,6,13,1);
-	bottom: -1px;
-	clear: both;
-	color: #ddd;
-	margin: 0 -6px -8px -8px;
-	padding: 6px 4px;
+	background: rgba(6,6,6,0.3);
+	border-radius: 20px;
+	bottom: 0;
+	color: #fff;
+	margin: 0 auto;
+	padding: 4px;
 	text-align: center;
-	width: 100%;
+	width: 220px;
 }
-
