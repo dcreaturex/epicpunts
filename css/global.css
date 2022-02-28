@@ -8,6 +8,7 @@ html, body {
 	height: 100%;
 }
 main {
+	font-size: 1.1em;
 	margin-bottom: 20px;
 }
 
@@ -21,6 +22,7 @@ main {
 
 
 .navbar {
+	font-size: 1em;
 	margin: 0 auto;
 	padding-top: 35px;
 	position: relative;
@@ -160,6 +162,7 @@ main {
 	align: center;
 	background-color: rgba(240,240,240,0.7);
 	border-radius: 20px;
+	font-size: 1em;
 	margin: 0 auto;
   	padding: 10px;
 	text-align: center;
@@ -170,6 +173,7 @@ main {
 		align: center;
 		background-color: rgba(240,240,240,0.7);
 		border-radius: 20px;
+		font-size: 1em;
 		margin: 0 auto;
 		padding: 8px;
 		text-align: center;
@@ -185,6 +189,7 @@ footer {
 	border-radius: 20px;
 	bottom: 0;
 	color: #fff;
+	font-size: .95em;
 	margin: 0 auto;
 	padding: 4px;
 	text-align: center;
