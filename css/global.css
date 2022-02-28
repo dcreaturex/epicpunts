@@ -16,158 +16,8 @@ main {
 	margin: 0 auto;
 	padding: 5px;
 	text-align: center;
-	width: 240px;
-	height: auto;
 }
 
-.circular {
-	border-radius: 50%;
-	-moz-border-radius: 50%;
-	-webkit-border-radius: 50%;
-	display: block;
-	margin-top: 90px;
-	position: relative;
-	text-align: center;
-	text-decoration: none;
-	width: 600px;
-	height: 600px;
-}
-.circular a {
-	color: #fff;
-	font-size: 16px;
-	font-variant: small-caps;
-	position: relative;
-	text-align: center;
-	text-decoration: none;
-}
-.circular a:hover {
-	font-style: #f00;
-}
-.circular img {
-	margin: 0 auto;
-	padding: 10px 10px;
-	text-align: center;
-	width: 50px;
-	height: 50px;
-}
-.circular img:hover {
-	filter: invert(100%);
-}
-.white img {
-	border: solid 2px #edc;
-	border-radius: 50%;
-	margin: 0 auto;
-	text-align: center;
-	top: 0px;
-}
-.blue img {
-	border: solid 2px #22e;
-	border-radius: 50%;
-	float: right;
-	clear: left;
-	margin: 0 auto;
-	top: 40px;
-}
-.black img {
-	border: solid 2px #444;
-	border-radius: 50%;
-	float: right;
-	clear: left;
-	margin: 0 auto;
-	top: 180px;
-}
-.red img {
-	border: solid 2px #e22;
-	border-radius: 50%;
-	float: left;
-	clear: right;
-	margin: 0 auto;
-	top: 180px;
-}
-.green img {
-	border: solid 2px #2e2;
-	border-radius: 50%;
-	float: left;
-	clear: right;
-	margin: 0 auto;
-	top: 40px;
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 800px) {
-	.circular {
-		margin: 0 auto;
-		padding-top: 60px;
-		position: relative;
-		text-align: center;
-	}
-	.circular a {
-		color: #fff;
-		display: inline-block;
-		font-family: Verdana, Arial, sans-serif;
-		font-size: 15px;
-		font-variant: small-caps;
-		position: relative;
-		text-align: center;
-		text-decoration: none;
-	}
-	.circular img {
-		border: 0;
-		margin: 0 auto;
-		padding: 2px 15px;
-		position: relative;
-		text-align: center;
-		width: 40px;
-		height: 40px;
-	}
-	.circular img:hover {
-		filter: invert(100%);
-	}
-	.white img {
-		margin: 0 auto;
-		position: relative;
-		text-align: center;
-		top: 0;
-	}
-	.white:hover {
-		color: #edc;
-	}
-	.blue img {
-		margin: 0 auto;
-		position: relative;
-		text-align: center;
-		top: 0;
-	}
-	.blue:hover {
-		color: #22e;
-	}
-	.black img {
-		margin: 0 auto;
-		position: relative;
-		text-align: center;
-		top: 0;
-	}
-	.black:hover {
-		color: #444;
-	}
-	.red img {
-		margin: 0 auto;
-		position: relative;
-		text-align: center;
-		top: 0;
-	}
-	.red:hover {
-		color: #e22;
-	}
-	.green img {
-		margin: 0 auto;
-		position: relative;
-		text-align: center;
-		top: 0;
-	}
-	.green:hover {
-		color: #2e2;
-	}
-}
 
 .navbar {
 	margin: 0 auto;
@@ -197,12 +47,18 @@ main {
 	height: 40px;
 }
 
+
 .whiteA {
 	position: relative;
 	text-align: center;
 }
 .whiteA:hover {
 	color: #edc;
+}
+.white img {
+	margin: 0 auto;
+	text-align: center;
+	top: 0px;
 }
 .whiteA img:hover {
 	filter: drop-shadow(2px 2px 5px rgba(242,242,242,0.8));
@@ -214,6 +70,12 @@ main {
 .blueA:hover {
 	color: #22e;
 }
+.blue img {
+	float: right;
+	clear: left;
+	margin: 0 auto;
+	top: 40px;
+}
 .blueA img:hover {
 	filter: drop-shadow(2px 2px 5px rgba(24,24,255,0.8));
 }
@@ -223,6 +85,12 @@ main {
 }
 .blackA:hover {
 	color: #444;
+}
+.black img {
+	float: right;
+	clear: left;
+	margin: 0 auto;
+	top: 180px;
 }
 .blackA img:hover {
 	filter: drop-shadow(2px 2px 6px rgba(80,80,80,0.8));
@@ -234,6 +102,12 @@ main {
 .redA:hover {
 	color: #e22;
 }
+.red img {
+	float: left;
+	clear: right;
+	margin: 0 auto;
+	top: 180px;
+}
 .redA img:hover {
 	filter: drop-shadow(2px 2px 5px rgba(242,24,24,0.8));
 }
@@ -243,6 +117,12 @@ main {
 }
 .greenA:hover {
 	color: #2e2;
+}
+.green img {
+	float: left;
+	clear: right;
+	margin: 0 auto;
+	top: 40px;
 }
 .greenA img:hover {
 	filter: drop-shadow(2px 2px 5px rgba(24,242,24,0.8));
@@ -269,7 +149,6 @@ main {
 }
 
 
-
 #tweets {
 	margin: 0 auto;
 	padding: 25px 10px;
@@ -285,6 +164,18 @@ main {
 	text-align: center;
 	width: 50%;
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+	.textSection {
+		align: center;
+		background-color: rgba(240,240,240,0.7);
+		border-radius: 20px;
+		margin: 0 auto;
+		padding: 8px;
+		text-align: center;
+		width: 92%;
+	}
+}
+
 
 
 footer {
