@@ -168,14 +168,19 @@ main {
 	text-align: center;
 	width: 50%;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 240px) and (max-device-width : 1200px) {
+	main {
+		font-size: 1.12em;
+		margin-bottom: 20px;
+		width: 100%;
+	}
 	.textSection {
 		align: center;
 		background-color: rgba(240,240,240,0.7);
 		border-radius: 20px;
 		font-size: 1em;
 		margin: 0 auto;
-		padding: 8px;
+		padding: 16px;
 		text-align: center;
 		width: 92%;
 	}
